@@ -117,4 +117,8 @@ sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
 certbot renew --dry-run
 ```
 
+# Certbot generate certificate for subdomain
+certbot -d domain name,subdomain.domain name,www.domain name --expand
+
+
 Now visit https://yourdomain.com and you should see your Node app
