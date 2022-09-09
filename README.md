@@ -121,4 +121,7 @@ certbot renew --dry-run
 certbot -d domain name,subdomain.domain name,www.domain name --expand
 
 
+Check certbot certificates list:
+certbot certificates
+
 Now visit https://yourdomain.com and you should see your Node app
